@@ -125,5 +125,17 @@
     <ClInclude Include="include\Gameplay\GameplayService.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\Stick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\StickCollectionModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\StickCollectionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\StickCollectionController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

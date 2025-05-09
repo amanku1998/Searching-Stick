@@ -44,33 +44,33 @@ namespace Global
 	void ServiceLocator::update()
 	{
 		graphic_service->update();
-		ui_service->update();
 		event_service->update();
 
 		if (GameService::getGameState() == GameState::GAMEPLAY)
 		{
 			gameplay_service->update();
 		}
+		ui_service->update();
 	}
 
 	void ServiceLocator::render()
 	{
 		graphic_service->render();
-		ui_service->render();
 
 		if (GameService::getGameState() == GameState::GAMEPLAY)
 		{
 			gameplay_service->render();
 		}
+		ui_service->render();
 	}
 
 	void ServiceLocator::clearAllServices()
 	{
 		delete(ui_service);
+		delete(gameplay_service);
 		delete(graphic_service);
 		delete(sound_service);
 		delete(event_service);
-		delete(gameplay_service);
 	}
 
 	ServiceLocator* ServiceLocator::getInstance()

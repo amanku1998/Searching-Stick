@@ -9,7 +9,7 @@ namespace Gameplay
     class GameplayView
     {
     private:
-        const float background_alpha = 128.f;
+        const float background_alpha = 55.f;
 
         GameplayController* gameplay_controller;
         UI::UIElement::ImageView* background_image;
