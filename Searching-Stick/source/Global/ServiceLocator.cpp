@@ -87,6 +87,6 @@ namespace Global
 
 	UIService* ServiceLocator::getUIService() { return ui_service; }
 
-	GameplayService* ServiceLocator::getGameplayService() { return gameplay_service; }
+	Gameplay::GameplayService* ServiceLocator::getGameplayService() { return gameplay_service; }
 	
 }
