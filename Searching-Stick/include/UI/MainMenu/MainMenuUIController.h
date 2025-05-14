@@ -33,7 +33,7 @@ namespace UI
 			void registerButtonCallback();
 
 			void linearSearchButtonCallback();
-			void binarySearchButtonCallback();
+			//void binarySearchButtonCallback();
 			void quitButtonCallback();
 
 			void destroy();
